@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1592845460 source:c:\users\enes\desktop\github\path_maker\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	<unistd.h>
+

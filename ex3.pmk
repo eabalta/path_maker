@@ -1,0 +1,51 @@
+go<*>;
+make<testler>;
+go<testler>;
+
+make <dosya1>;
+make <dosya2>;
+go <dosya2>;
+make <a/b>;
+
+go <*>;
+
+go <dosya1000>; 
+go <dosya2/a/b/c>;  
+
+make <dosya10_>;	
+make <Dosya11>;
+make <dosya.2>;
+make <545646dosya>;
+make <dosya 10>;
+make < dosya 15>;
+make <dosya 12 >;
+make <dosya12 >;
+make < dosya15>;
+make < dosya >;
+go<dosya2/*/ a>;  
+make</dosya3/a1>;  
+make</dosya4/a2/>; 
+make<dosya5/a3/>; 
+
+make<dosya6 / a /b /c>;  
+go<dosya6/a>;
+go<*>;
+
+make <dosya2/a/b>;   
+
+if<dosya2/a/b>{
+	go<dosya2>;
+	make<dosya7>;
+	go<dosya7>;
+	if<*>{
+	make<a2>;
+	go<a2>;
+	ifnot<*> {
+		make<ramo>;
+		if<*>{
+			go<*>;
+		}
+	}
+	if<*> make<enes>;
+}
+}
